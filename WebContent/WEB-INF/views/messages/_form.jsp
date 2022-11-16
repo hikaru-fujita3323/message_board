@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<lavel for = "taitle">タイトル</lavel><br />
+<label for = "taitle">タイトル</label><br />
 <input type="text" name = "title" value = "${message.title }"/>
 <br /><br />
 
@@ -8,4 +8,4 @@
 <br /> <br/>
 
 <input type = "hidden" name ="_token" value="${_token}"/>
-<button type ="submit">投稿</button>"
+<button type ="submit">投稿</button>
